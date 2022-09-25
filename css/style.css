@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.051);
+}
+
+.menu__container{
+    width: calc(100% - 20px); 
+    margin: auto; 
+    display: flex;
+}
+
+.menu__logo{
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 70px;
+}
+
+.logo{
+    width: 12%;
+
+}
+
+.logo__fondo{
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+}
+
+.menu__menu{
+    width: 50%;
+    text-align: right;
+    align-self: center;
+}
+
+.menu__menu a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    animation: slidein 2s;
+}
+
+.menu__menu a[href="#contacto"]{
+    background-color: #03B0C1;
+    color: #fff;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+    text-transform: uppercase; 
+    margin-right: 10px;
+    font-weight: 400;
+    transform: rotate(10deg);
+
+}
+
+.menu__menu a[href="#contacto"]:hover{
+    background: #03b1c1b5;
+    font-weight: 500;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: -10%;
+    }
+  
+    to {
+      margin-left: 2.5%;
+    }
+}
+
+/*---------------MAIN-------------*/
+.presentacion{
+    max-width: 100%;
+}
+
+.presentacion__img{
+    display: flex;
+}
+
+
+
+.presentacion__img__izq{
+    position: relative;
+    width: 50%;
+}
+
+.presentacion__img__izq .img__1{
+    width: 50%;
+    height: 75%;
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.presentacion__img__izq .img__2{
+    width: 40%;
+    height: 65%;
+    position: absolute;
+    right: 100px;
+    top: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: .3rem;
+    background: #fff;
+}
+
+.presentacion__img__der{
+    width: 50%;
+    height: calc(100vh - 110px);
+    background-image: url(../img/der.png);
+    background-size: cover;
+    background-position: left;
+    color: #fff;
+    border-radius: 10px 3px 3px 10px;
+}
+
+.presentacion__img__der h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.presentacion__img__der h2{
+    text-align: center;
+    text-decoration:underline;
+    margin-bottom: 50px;
+}
+
+.presentacion__iconos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    margin: auto;
+}   
+
+.presentacion__iconos .icon{
+    width: 25%;
+    margin-bottom: 30px;
+}
+
+.presentacion__iconos img{
+    width: 50%;
+
+}
+
+.presentacion__img__der .der__btn{
+    text-align: center;
+}
+
+.presentacion__img__der button{
+    display: inline-block;
+    width: 50%;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-top: 15px;
+    background: #03B0C1;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.presentacion__img__der button:active{
+    transform: scale(.9);
+    animation: 2s;
+}
+
+/*---------about dr -----------*/
+.about{
+    background-color: #03b1c1ad;
+    display: flex;
+    position: relative;
+    height: 250px;
+}
+
+
+.about .about__img {
+    width: 50%;
+   
+}
+
+.about .about__img img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding: .2rem;
+    background-color: #179ca8;
+    position: absolute;
+    bottom: 30%;
+    left: 18%;
+}
+
+.about .about__info{
+    width: 50%;
+}
+
+.about .about__info h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+.about .about__info  p{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.about .about__info  p:nth-child(3){
+    font-weight: bold;
+}
+
+/*----------DESCRIPTION----------------*/
+.description__container{
+    background-color: rgba(232, 204, 171, 0.725);
+    padding: 1rem;
+}
+
+.description__title{
+    text-align: center;
+    margin-top: 100px;
+    color: #298388;
+}
+
+.description__title .happy{
+    color: #3C8488;
+    font-size: 300px;
+}
+
+.description__title h3{
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.description__back{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+
+.description__info{
+    display: flex;
+    margin-top: 50px;
+}
+
+.description__info h4{
+    font-size: 20px;
+}
+
+.description__back p{
+    font-size: 10px;
+}
+
+.description__info img{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.description__info__text{
+    margin-left: 20px;
+}
+
+.description__info__text h4{
+    font-size: 30px;
+}
