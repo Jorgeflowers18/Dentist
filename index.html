@@ -4,115 +4,429 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.ico">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="main.js"></script>
+    <link 
+        href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"
+    >
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/css/glide.theme.css"
+    />
+    <title>Blanco Estética Dental</title>
 </head>
 <body>
     <header class="header">
-        <div class="menu__container">
+        <div class="menu__container ">
             <div class="menu__logo">
-                <img class="logo" src="./img/logo.png" alt="dentista_logo" srcset="">
+                <img class="logo" src="./img/logo.png" alt="dentista_logo" srcset="" height="90px">
             </div>
             <nav class="menu__menu">
-                <a href="#">Dr. Mary Castillo</a>
-                <a href="#">Mis servicios</a>
+                <a href="#">¿Quiénes Somos?</a>
+                <a href="#">Servicios</a>
                 <a href="#">Ubicacion</a>
                 <a href="#contacto">contactame</a>
             </nav>
         </div>
     </header>
     <main>
+      <div id="wrapper">
         <div class="presentacion">
-            <div class="presentacion__img">
-                <div class="presentacion__img__izq">
-                    <img class="img__1" src="./img/f1.jpg" alt="">
-                    <img class="img__2" src="./img/retratro.jpg" alt="">
-                </div>
-                <div class="presentacion__img__der">
-                    <h1>Especialidades Odontologicas</h1>
-                    <h2>Viste tu mejor sonrisa todos los dias</h2>
-                    <div class="presentacion__iconos">
-                        <div class="icon">
-                            <img src="./img/icon1.png" alt="" srcset="">
-                            <p>Blanqueamiento</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icon2.png" alt="" srcset="">
-                            <p>OdontoPediatria</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icon3.png" alt="" srcset="">
-                            <p>Implantologia</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icon4.png" alt="" srcset="">
-                            <p>Cirujia</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icon1.png" alt="" srcset="">
-                            <p>Ortodoncia</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icon2.png" alt="" srcset="">
-                            <p>Estetica</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icon3.png" alt="" srcset="">
-                            <p>Cirujia</p>
-                        </div>
-                        <div class="icon">
-                            <img src="./img/icon4.png" alt="" srcset="">
-                            <p>Rehabilitacion</p>
-                        </div>
-                    </div>
-                    <div class="der__btn">
-                        <button>Agenda una Cita</button>
-                    </div>
-                </div>
-            </div>
+          <div class="presentacion__derecha">
+            <h1 class="presentacion__title">
+              Blanco Estética Dental
+            </h1>
+          </div>
+          <div class="presentacion__izquierda">
+            <img src="./img/retratro.jpg" alt="" srcset="">
+            <p>Dr. Luisa Maria</p> 
+          </div>
         </div>
+        <div>
         <div class="description__container">
-            <div class="description__title">
-                <i class="ri-emotion-happy-fill happy"></i>
-                <h3>La mejor experencia para nuestros Clientes<h3>
-                <i class="ri-star-fill"></i>
-                <i class="ri-star-fill"></i>
-                <i class="ri-star-fill"></i>
-                <i class="ri-star-fill"></i>
-            </div>
-            <div class="description__back">
-                <div class="description__info">
-                    <img src="./img/fondo.jpg" alt="" srcset="">
-                    <div class="description__info__text">
-                        <h4>Tecnologia de Vanguardia</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa neque deserunt itaque quia quam, earum harum aspernatur magnam unde fuga. Voluptatem est eos mollitia tempore, libero quis expedita deleniti.</p>
+           <div class="services">
+               <div class="services__info">
+                    <div class="service__info animado">
+                        <img src="./img/fondo.jpg" alt="">
+                        <div class="service__info__text">
+                            <h3>Tecnologia</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque ad sit, veniam corrupti quos eum dicta itaque officiis hic odit, officia at unde earum atque. Nemo error ducimus rem?</p>
+                        </div>
                     </div>
-                </div>
-                <div class="description__info">
-                    <img src="./img/fondo.jpg" alt="" srcset="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa neque deserunt itaque quia quam, earum harum aspernatur magnam unde fuga. Voluptatem est eos mollitia tempore, libero quis expedita deleniti.</p>
-                </div>
-                <div class="description__info">
-                    <img src="./img/fondo.jpg" alt="" srcset="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa neque deserunt itaque quia quam, earum harum aspernatur magnam unde fuga. Voluptatem est eos mollitia tempore, libero quis expedita deleniti.</p>
-                </div>
-                <div class="description__info">
-                    <img src="./img/fondo.jpg" alt="" srcset="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa neque deserunt itaque quia quam, earum harum aspernatur magnam unde fuga. Voluptatem est eos mollitia tempore, libero quis expedita deleniti.</p>
-                </div>
-            </div>
+                    <div class="service__info animado">
+                        <img src="./img/fondo.jpg" alt="">
+                        <div class="service__info__text">
+                            <h3>Tecnologia</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque ad sit, veniam corrupti quos eum dicta itaque officiis hic odit, officia at unde earum atque. Nemo error ducimus rem?</p>
+                        </div>
+                    </div>
+                    <div class="service__info animado">
+                        <img src="./img/fondo.jpg" alt="">
+                        <div class="service__info__text">
+                            <h3>Tecnologia</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia eaque ad sit, veniam corrupti quos eum dicta itaque officiis hic odit, officia at unde earum atque. Nemo error ducimus rem?</p>
+                        </div>
+                    </div>
+               </div>
+           </div>
         </div>
-        <div class="about">
-             <div class="about__img">
-                 <img src="./img/retratro.jpg" alt="" srcset="">
-             </div>
-             <div class="about__info">
-                 <h3>Conoce a tu Doctora</h3>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quasi vero quo aspernatur ducimus voluptas facilis veniam est eligendi aliquam modi amet temporibus, fuga nisi dolores quidem non ullam. Ratione?</p>
-                 <p>Dr. Castillo</p>
-             </div>
-         </div> 
+      </div>
+        <!--Div para efecto de selección-->
+        <div id="main">
+          <div class="inner">
+            <header>
+              <h1>Tu sonrisa es nuestra mayor prioridad<br />
+              ¿Qué servcio te interesa?</h1>
+              <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
+            </header>
+            <section class="tiles">
+              <article class="style1 animado">
+                <span class="image">
+                  <img src="images/pic01.jpg" alt="" />
+                </span>
+                <a href="generic.html">
+                  <h2>Magna</h2>
+                  <div class="content">
+                    <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                  </div>
+                </a>
+              </article>
+              <article class="style2 animado">
+                <span class="image">
+                  <img src="images/pic02.jpg" alt="" />
+                </span>
+                <a href="generic.html">
+                  <h2>Lorem</h2>
+                  <div class="content">
+                    <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                  </div>
+                </a>
+              </article>
+              <article class="style3 animado">
+                <span class="image">
+                  <img src="images/pic03.jpg" alt="" />
+                </span>
+                <a href="generic.html">
+                  <h2>Feugiat</h2>
+                  <div class="content">
+                    <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                  </div>
+                </a>
+              </article>
+              <article class="style4 animado">
+                <span class="image">
+                  <img src="images/pic04.jpg" alt="" />
+                </span>
+                <a href="generic.html">
+                  <h2>Tempus</h2>
+                  <div class="content">
+                    <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                  </div>
+                </a>
+              </article>
+              <article class="style5 animado">
+                <span class="image">
+                  <img src="images/pic05.jpg" alt="" />
+                </span>
+                <a href="generic.html">
+                  <h2>Aliquam</h2>
+                  <div class="content">
+                    <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                  </div>
+                </a>
+              </article>
+              <article class="style4 animado">
+                <span class="image">
+                  <img src="images/pic12.jpg" alt="" />
+                </span>
+                <a href="generic.html">
+                  <h2>Pretium</h2>
+                  <div class="content">
+                    <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+                  </div>
+                </a>
+              </article>
+            </section>
+          </div>
+        </div>
+        <div class="container__slides">
+            <p class="container__slides__p">No necesitas buscar más</p>
+            <div class="wrapper">
+              <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                       
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                       
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                        
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                        
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                        
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                      
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                       
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="glide__slide">
+                      <div class="card">
+                        <img
+                          src="./img/fondo.jpg"
+                          alt=""
+                        />
+                       
+                       
+                        <div class="content">
+                          <span>Travel Discounts</span>
+                          <h6>Atención personalizada</h6>
+      
+                          <p>Angela Lashbrook in Cesis</p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="glide__arrows" data-glide-el="controls">
+                  <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                    <i class="ri-arrow-left-s-line"></i>
+                  </button>
+                  <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                        <i class="ri-arrow-right-s-line"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+             <!--Div SERVICIOS-->
+            <div class="container__cards animado">
+              <div class="container__card">
+                <label>Limpieza</label>
+                <div class="card__img">
+                  <img src="./img/limpiezaa.png" alt="" srcset="">
+                </div>
+                <div class="card__info">
+                  <ul>
+                    <li>Lorem Lorem Lorem</li>
+                    <li>Lorem Lorem Lorem</li>
+                    <li>Lorem Lorem Lorem</li>
+                  </ul>
+                </div>
+                <div class="card__info__price">
+                  <p>50<span>$</span></p>
+                </div>
+              </div>
+              <div class="container__card">
+                <label>Blanqueamiento</label>
+                <div class="card__img">
+                  <img src="./img/blanqueamiento.png" alt="" srcset="">
+                </div>
+                <div class="card__info">
+                  <ul>
+                    <li>Lorem Lorem Lorem</li>
+                    <li>Lorem Lorem Lorem</li>
+                    <li>Lorem Lorem Lorem</li>
+                  </ul>
+                </div>
+                <div class="card__info__price">
+                  <p>100<span>$</span></p>
+                </div>
+              </div>
+              <div class="container__card">
+                <label>Ortodoncia</label>
+                <div class="card__img">
+                  <img src="./img/ortodoncia.png" alt="" srcset="">
+                </div>
+                <div class="card__info">
+                  <ul>
+                    <li>Lorem Lorem Lorem</li>
+                    <li>Lorem Lorem Lorem</li>
+                    <li>Lorem Lorem Lorem</li>
+                  </ul>
+                </div>
+                <div class="card__info__price">
+                  <p>500<span>$</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!--ABOUT DR-->
+          <div class="about animado">
+            <div class="about__izq">
+              <div class="about__img">
+                  <img src="./img/retratro.jpg" alt="" srcset="">
+              </div>
+              <div class="about__info">
+                  <h3>Conoce a tu Doctora</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quasi vero quo aspernatur ducimus voluptas facilis veniam est eligendi aliquam modi amet temporibus, fuga nisi dolores quidem non ullam. Ratione?</p>
+                  <p>Dr. Castillo</p>
+              </div>
+            </div>
+            <div class="about__der">
+              <div class="ubication">
+                  <p>
+                      <img src="./img/ubicacionDentista.png" alt="">
+                      Ubicacion
+                  </p>
+                  <div class="ubication__info">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15952.632073878085!2d-78.66819598465577!3d-1.6529878474861257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d307e7030de6fd%3A0x3aa275c954529a54!2sTerminal%20Intercantonal!5e0!3m2!1ses!2sec!4v1664406119189!5m2!1ses!2sec" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <div class="ubication__info__texto">
+                          
+                      </div>
+                  </div>
+              </div>
+            </div>
+           </div>
+           <footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+          </div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="./js/animado.js"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
 </body>
 </html>
